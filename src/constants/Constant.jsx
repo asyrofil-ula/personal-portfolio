@@ -10,6 +10,10 @@ import Vite from "../assets/Vite.png";
 import TailwindCSS from "../assets/TailwindCSS.png";
 import react from "../assets/react.png";
 import Vue from "../assets/vue.png";
+import laravel from "../assets/laravel.png";
+import node from "../assets/node.png";
+import bootstrap from "../assets/bootstrap.png";
+import php from "../assets/php.png";
 
 import Hackthechain from "../assets/HackTheChainLogo.png";
 import GSSOC from "../assets/GSSoc.jpg";
@@ -26,6 +30,8 @@ import Rocket from "../assets/Rocket.jpg";
 import Game from "../assets/Stone.jpg";
 import WellBeing from "../assets/well-being.jpg";
 
+import sma from "../assets/sma.png";
+
 export {
   C,
   CPP,
@@ -39,6 +45,10 @@ export {
   Python,
   Javascript,
   Vue,
+  laravel,
+  node,
+  bootstrap,
+  php,
   Hackthechain,
   GSSOC,
   IITB,
@@ -52,4 +62,5 @@ export {
   GDSC,
   KDE,
   Oppia,
+  sma
 };

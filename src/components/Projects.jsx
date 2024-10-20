@@ -1,7 +1,7 @@
 import Project_prop from "./project_prop";
 import {
   GPT4,
-  Portfolio,
+  // Portfolio,
   Rocket,
   WellBeing,
   Game,
@@ -14,7 +14,7 @@ import { useEffect } from "react";
 import {
   SiReact,
   SiTailwindcss,
-  SiVite,
+  // SiVite,
   SiHtml5,
   SiCss3,
   SiJavascript,
@@ -39,39 +39,11 @@ const Projects = () => {
           data-aos="zoom-out-down"
         >
           <Project_prop
-            title="Portfolio Website"
-            para="Personal portfolio website created with react and Tailwind CSS"
-            img={Portfolio}
-            link=""
-            github_link=""
-            react={
-              <Tooltip title="React" arrow>
-                <IconButton>
-                  <SiReact className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-            tailwindcss={
-              <Tooltip title="TailWind CSS" arrow>
-                <IconButton>
-                  <SiTailwindcss className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-            vite={
-              <Tooltip title="Vite" arrow>
-                <IconButton>
-                  <SiVite className="dark:text-slate-200 text-black" />
-                </IconButton>
-              </Tooltip>
-            }
-          />
-          <Project_prop
             title="Stark Rockets"
             para="Stark is a fantasy and futuristic website which offers the ride of space-ship to the space"
             img={Rocket}
             link="https://stark-rockets.onrender.com/"
-            github_link="https://github.com/DhairyaMajmudar/STARK"
+            github_link="https://github.com/AsyrofilUla/STARK"
             html5={
               <Tooltip title="HTML5" arrow>
                 <IconButton>
@@ -98,8 +70,8 @@ const Projects = () => {
             title="Thrive"
             para="Thrive is a website which primarily focuses on improving life-style and well-being"
             img={WellBeing}
-            link="https://dhairyamajmudar.github.io/Thrive/"
-            github_link="https://github.com/DhairyaMajmudar/Thrive"
+            link="https://AsyrofilUla.github.io/Thrive/"
+            github_link="https://github.com/AsyrofilUla/Thrive"
             html5={
               <Tooltip title="HTML 5" arrow>
                 <IconButton>
@@ -127,7 +99,7 @@ const Projects = () => {
             para="GPT 4 is a website which focuses on introduction of AI to the world "
             img={GPT4}
             link="https://dhairya-majmudar-gpt-4.netlify.app/"
-            github_link="https://github.com/DhairyaMajmudar/GPT-4-Website"
+            github_link="https://github.com/AsyrofilUla/GPT-4-Website"
             react={
               <Tooltip title="React" arrow>
                 <IconButton>
@@ -155,7 +127,7 @@ const Projects = () => {
             para="A Stone Paper Scissors game created  to remember childhood memories"
             img={Game}
             link=""
-            github_link="https://github.com/DhairyaMajmudar/Stone-Paper-Scissors"
+            github_link="https://github.com/AsyrofilUla/Stone-Paper-Scissors"
             html5={
               <Tooltip title="HTML 5" arrow>
                 <IconButton>
