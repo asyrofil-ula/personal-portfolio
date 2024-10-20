@@ -29,6 +29,11 @@ import Portfolio from "../assets/portfolio.jpg";
 import Rocket from "../assets/Rocket.jpg";
 import Game from "../assets/Stone.jpg";
 import WellBeing from "../assets/well-being.jpg";
+import portfolio from "../assets/portfolio.png";
+import library from "../assets/library.png";
+import ebook from "../assets/ebook.png";
+import histogram from "../assets/histogram.png";
+import profile from "../assets/profile.jpeg";
 
 import sma from "../assets/sma.png";
 
@@ -62,5 +67,10 @@ export {
   GDSC,
   KDE,
   Oppia,
-  sma
+  sma,
+  portfolio,
+  library,
+  ebook,
+  histogram,
+  profile,
 };

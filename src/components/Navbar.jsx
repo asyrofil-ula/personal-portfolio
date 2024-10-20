@@ -27,7 +27,7 @@ const Navbar = () => {
           </div>
           <div className="NAVLINKS text-[20px] translate-x-[80px] max-sm:hidden flex gap-12 text-[#00040f] dark:text-[#e1e1e1] ">
             <a href="#about" className=" hover:text-cyan-500">Home</a>
-            <a href="#experience" className="hover:text-cyan-500">Experience</a>
+            <a href="#skills" className="hover:text-cyan-500">Skills</a>
             <a href="#education" className="hover:text-cyan-500 ">Education</a>
             <a href="#projects" className="hover:text-cyan-500 ">Projects</a>
             <a href="#contact" className="hover:text-cyan-500 ">Contact</a>

@@ -1,14 +1,13 @@
 "use client";
 
 import Exp_prop from "./Exp_prop";
-import Skills from "./Skills";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import {
   GDSC,
   KDE,
-  Oppia,
+  portfolio
 } from "../constants/Constant";
 
 const Experience = () => {
@@ -31,7 +30,7 @@ const Experience = () => {
             data-aos="zoom-in-up"
           >
             <Exp_prop
-              img={Oppia}
+              img={portfolio}
               title="Oppia Foundation"
               subtitle="LAcE Team Member"
               date="November 2023 - present"
@@ -54,7 +53,6 @@ const Experience = () => {
           </div>
         </div>
       </section>
-      <Skills></Skills>
     </>
   );
 };

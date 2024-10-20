@@ -1,9 +1,9 @@
 import Navbar from "./components/Navbar";
 import About from "./components/About";
-import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Skills from "./components/Skills";
 import HashLoader from "react-spinners/HashLoader";
 import { useState, useEffect } from "react";
 const override = {
@@ -38,7 +38,7 @@ const App = () => {
         <div>
           <Navbar></Navbar>
           <About></About>
-          <Experience></Experience>
+          <Skills></Skills>
           <Education></Education>
           <Projects></Projects>
           <Contact></Contact>
