@@ -4,7 +4,7 @@
       Github,
       Vite,
       TailwindCSS,
-      react,
+      React,
       Python,
       Javascript,
       laravel,
@@ -35,7 +35,7 @@
               <Image img={HTML}></Image>
               <Image img={CSS}></Image>
               <Image img={Javascript}></Image>
-              <Image img={react}></Image>
+              <Image img={React}></Image>
               <Image img={TailwindCSS}></Image>
               <Image img={laravel}></Image>
               <Image img={bootstrap}></Image>

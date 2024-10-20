@@ -8,7 +8,7 @@ import Javascript from "../assets/Javascript.png";
 import Git from "../assets/Git.png";
 import Vite from "../assets/Vite.png";
 import TailwindCSS from "../assets/TailwindCSS.png";
-import react from "../assets/React.png";
+import React from "../assets/React.png";
 import Vue from "../assets/vue.png";
 import laravel from "../assets/laravel.png";
 import node from "../assets/node.png";
@@ -46,7 +46,7 @@ export {
   Git,
   Vite,
   TailwindCSS,
-  react,
+  React,
   Python,
   Javascript,
   Vue,
