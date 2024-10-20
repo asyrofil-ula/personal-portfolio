@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Lottie from "lottie-react";
-import education from "../assets/lottie/education.json";
+import education from "../assets/lottie/Education.json";
 import uniba from "../assets/uniba.png";
 import sma from "../assets/sma.png";
 import AOS from "aos";
