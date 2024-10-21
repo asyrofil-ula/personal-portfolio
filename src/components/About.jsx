@@ -31,7 +31,7 @@ const About = () => {
               repeat={Infinity}
             />
             </div>
-            <p className="ABOUT h-[230px] text-xl max-sm:text-[10px] bg-clip-text text-transparent  bg-gradient-to-r  from-[#00040f] to-slate-500 dark:from-slate-500 dark:to-slate-200 max-w-[570px] mt-5 pl-1">
+            <p className="ABOUT h-[full] text-xl max-sm:text-[15px] bg-clip-text text-transparent  bg-gradient-to-r  from-[#00040f] to-slate-500 dark:from-slate-500 dark:to-slate-200 max-w-[570px] mt-5 pl-1">
               Hi! I’m Asyrofil ‘Ula, I’m experienced with a deep dedication to
               creating good and efficient solutions through code. With a solid
               foundation in Programming, as well as a basic understanding of web
