@@ -12,12 +12,10 @@
       bootstrap,
       php,
     } from "../constants/Constant";
-
     import AOS from "aos";
     import "aos/dist/aos.css";
     import { useEffect } from "react";
     import Image from "./Img_prop";
-
     const Skills = () => {
       useEffect(() => {
         AOS.init();
@@ -28,10 +26,7 @@
             <h1 className="text-[#00040f] dark:text-slate-300 font-extrabold text-5xl text-center max-sm:text-4xl ">
               SKILLS
             </h1>
-            <div
-              className="IMG grid  place-content-center p-5 grid-cols-3 gap-4 max-sm:p-2 mt-10"
-              data-aos="zoom-out-up"
-            >
+            <div className="IMG grid  place-content-center p-5 grid-cols-3 gap-4 max-sm:p-2 mt-10" data-aos="zoom-out-up">
               <Image img={HTML}></Image>
               <Image img={CSS}></Image>
               <Image img={Javascript}></Image>

@@ -15,6 +15,7 @@ const About = () => {
             <span className="bg-clip-text text-transparent bg-gradient-to-r  from-blue-600 to-cyan-600 dark:from-cyan-500 dark:to-slate-200">
               Asyrofil 'Ula <br />
             </span>
+            <div className="w-full h-[50px]">
             <TypeAnimation
               sequence={[
                 "And I'm a Web Developer",
@@ -24,11 +25,12 @@ const About = () => {
                 "And I'm a Frontend Developer",
                 1000,
               ]}
-              wrapper="span"
+              wrapper="div"
               speed={50}
-              className="text-[#00040f] dark:text-white text-3xl "
+              className="text-[#00040f] dark:text-white text-3xl"
               repeat={Infinity}
             />
+            </div>
             <p className="ABOUT h-[230px] text-xl max-sm:text-[10px] bg-clip-text text-transparent  bg-gradient-to-r  from-[#00040f] to-slate-500 dark:from-slate-500 dark:to-slate-200 max-w-[570px] mt-5 pl-1">
               Hi! I’m Asyrofil ‘Ula, I’m experienced with a deep dedication to
               creating good and efficient solutions through code. With a solid
